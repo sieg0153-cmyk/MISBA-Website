@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MISBA | UMD MIS &amp; Business Analytics Club</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Work+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "primary-fixed": "#ffdad4",
+                      "tertiary": "#07274d",
+                      "on-primary-fixed-variant": "#8f0f07",
+                      "tertiary-fixed": "#d6e3ff",
+                      "surface-tint": "#b22b1d",
+                      "secondary-fixed": "#ffe16d",
+                      "on-surface": "#191c1d",
+                      "surface-container": "#edeeef",
+                      "background": "#f8f9fa",
+                      "on-primary-fixed": "#410000",
+                      "on-background": "#191c1d",
+                      "on-primary-container": "#ff8371",
+                      "on-error": "#ffffff",
+                      "tertiary-container": "#223d64",
+                      "on-tertiary": "#ffffff",
+                      "primary": "#570000",
+                      "surface-container-high": "#e7e8e9",
+                      "error-container": "#ffdad6",
+                      "surface-container-lowest": "#ffffff",
+                      "surface-container-highest": "#e1e3e4",
+                      "secondary-container": "#fcd400",
+                      "inverse-surface": "#2e3132",
+                      "on-secondary": "#ffffff",
+                      "on-secondary-container": "#6e5c00",
+                      "on-error-container": "#93000a",
+                      "secondary": "#FFD700",
+                      "on-secondary-fixed": "#221b00",
+                      "surface-container-low": "#f3f4f5",
+                      "on-primary": "#ffffff",
+                      "inverse-on-surface": "#f0f1f2",
+                      "on-tertiary-fixed": "#001b3d",
+                      "surface-variant": "#e1e3e4",
+                      "primary-fixed-dim": "#ffb4a8",
+                      "tertiary-fixed-dim": "#aec7f6",
+                      "on-surface-variant": "#5a413d",
+                      "primary-container": "#800000",
+                      "on-secondary-fixed-variant": "#544600",
+                      "on-tertiary-fixed-variant": "#2d476f",
+                      "surface-dim": "#d9dadb",
+                      "outline": "#8e706c",
+                      "on-tertiary-container": "#8fa8d6",
+                      "surface-bright": "#f8f9fa",
+                      "inverse-primary": "#ffb4a8",
+                      "outline-variant": "#e2bfb9",
+                      "error": "#ba1a1a",
+                      "secondary-fixed-dim": "#e9c400",
+                      "surface": "#f8f9fa"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "fontFamily": {
+                      "headline": ["Newsreader"],
+                      "body": ["Work Sans"],
+                      "label": ["Work Sans"]
+              }
+            },
+          }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .font-newsreader { font-family: 'Newsreader', serif; }
+        .font-work-sans { font-family: 'Work Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TopNavBar -->
+<nav class="bg-[#570000]/80 backdrop-blur-md dark:bg-[#570000]/90 docked full-width top-0 sticky z-50 tonal-transition">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="font-newsreader text-2xl font-bold text-white">MISBA</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-newsreader tracking-tight text-[#FFD700] font-bold border-b-2 border-[#FFD700] pb-1" href="http://127.0.0.1:5500/Home%20Page_1/code.html">Home</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/About%20Us_2/code.html">About Us</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Executive%20Board_3/code.html">Executive Board</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Upcoming%20Events_4/code.html">Upcoming Events</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Project%20Showcase_5/code.html">Project Showcase</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Contact%20Us_6/code.html">Contact Us</a>
+</div>
+
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section: Digital Archivist Style -->
+<section class="relative min-h-[870px] flex items-center overflow-hidden bg-primary px-8 lg:px-24">
+<div class="absolute inset-0 opacity-20" data-alt="close-up of complex digital network nodes and glowing data pathways in a dark atmospheric setting with deep maroon hues" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCINlJsPgrKKi7oWHiEWHQxAMQrRUi1ywZleJZM3f041UguSey5jA8VMUfO6Nnc83b_aCe5Wq6GgO5_rZjsphNSXCEraNQl0xJeAYiWy0JEd_n0930T77OX9onKcw9e5gjhDQrENseE09yG5XLROUlbgjQ2-on8-W3TjwVLdboGO_3ATykP_YhVDkv0SsFBy3BmeCf3pYd8pUGi1nbcZWuz_sitIpkbn5-I_4m0xW1Ps1InDMmq8ySXi18AiWlv0lMpNIysNb5JjnSc'); background-size: cover; background-position: center;"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-transparent"></div>
+<div class="relative z-10 max-w-4xl">
+<span class="font-label text-secondary-fixed text-xs uppercase tracking-[0.3em] mb-6 block font-semibold">The University of Minnesota Duluth</span>
+<h1 class="font-headline text-5xl md:text-7xl lg:text-8xl text-white font-bold leading-[0.9] tracking-tighter mb-8">
+                    UMD MIS &amp; Business Analytics Club
+                </h1>
+<p class="font-body text-primary-fixed text-lg md:text-xl max-w-2xl mb-12 leading-relaxed opacity-90">
+                    Build real-world tech and business skills, connect with professionals, and get career-ready with hands-on experience.
+                </p>
+<div class="flex flex-wrap gap-4">
+
+</div>
+</div>
+<!-- Asymmetric Floating Data Point -->
+<div class="hidden lg:block absolute bottom-24 right-24 bg-surface-container-lowest/10 backdrop-blur-xl p-8 border-l-4 border-secondary-fixed max-w-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-4xl mb-4">analytics</span>
+<p class="text-white font-headline italic text-lg leading-snug">"Empowering the next generation of data-driven leaders through collegiate excellence."</p>
+</div>
+</section>
+<!-- About Us Section: Tonal Transition -->
+<section class="bg-surface py-32 px-8">
+<div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<div class="aspect-[4/5] bg-surface-container-high overflow-hidden rounded-lg shadow-2xl">
+<img alt="Professional collaboration" class="w-full h-full object-cover transition-all duration-700" data-alt="diverse group of students collaborating over laptops and data charts in a modern glass-walled university library setting" src="https://media.licdn.com/dms/image/v2/D5603AQG4oTzS9_kbFA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724727177436?e=2147483647&v=beta&t=OQpwtS1tlSYo2xR4RZ-bCkLwSlYEse4zzzUCLqqmdTs"/>
+</div>
+<!-- Decorative Element -->
+<div class="absolute -bottom-10 -right-10 w-48 h-48 bg-secondary-container/20 -z-10 rounded-full blur-3xl"></div>
+</div>
+<div>
+<span class="font-label text-secondary uppercase tracking-widest font-bold text-sm mb-4 block">Institutional Purpose</span>
+<h2 class="font-headline text-4xl md:text-5xl text-primary font-bold mb-8 leading-tight tracking-tight">Bridging Technology <br/>&amp; Strategic Business.</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-8 font-work-sans">
+                        The MIS &amp; Business Analytics Club at UMD Duluth is for students interested in technology, data, and business. We help members develop practical skills, explore career paths, and connect with professionals in the field.
+                    </p>
+<!-- Citation Block -->
+<div class="bg-primary-fixed p-8 border-l-4 border-secondary flex gap-6 items-start">
+<span class="material-symbols-outlined text-primary text-3xl">format_quote</span>
+<p class="font-headline italic text-xl text-on-primary-fixed-variant">
+                            "Innovation distinguishes between a leader and a follower. We choose to lead through analytics."
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Pillars: Bento-ish Grid -->
+</main>
+</div>
+</div>
+</section>
+<!-- Site Footer -->
+<footer class="bg-[#570000] dark:bg-[#3d0000] full-width py-12">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 w-full max-w-screen-2xl mx-auto space-y-8 md:space-y-0">
+<div class="flex flex-col items-center md:items-start space-y-4">
+<div class="font-newsreader text-xl text-[#FFD700]">MISBA</div>
+<div class="font-work-sans text-sm uppercase tracking-widest text-white/80 text-center md:text-left">
+                    © 2024 MISBA. 1120 Kirby Drive, Duluth MN 55812. <br/> 
+                    Email: DuluthMISBA@gmail.com
+                </div>
+</div>
+<div class="flex space-x-12">
+<a class="font-work-sans text-sm uppercase tracking-widest text-white/60 hover:text-[#FFD700] transition-colors" href="https://www.linkedin.com/in/mis-ba-duluth/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="font-work-sans text-sm uppercase tracking-widest text-white/60 hover:text-[#FFD700] transition-colors" href="https://www.instagram.com/misbac_umd?igsh=MTRkMTVzYm5iMDFwYw%3D%3D" target="_blank" rel="noopener noreferrer">Instagram</a>
+</div>
+</div>
+</footer>
+</body></html>

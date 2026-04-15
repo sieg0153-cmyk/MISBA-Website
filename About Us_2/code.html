@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Work+Sans:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-on-surface": "#f0f1f2",
+                    "outline-variant": "#e2bfb9",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-fixed": "#001b3d",
+                    "on-primary-fixed": "#410000",
+                    "on-secondary": "#ffffff",
+                    "surface-variant": "#e1e3e4",
+                    "on-secondary-fixed-variant": "#544600",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed": "#221b00",
+                    "surface-container-high": "#e7e8e9",
+                    "on-surface-variant": "#5a413d",
+                    "inverse-primary": "#ffb4a8",
+                    "tertiary": "#07274d",
+                    "on-primary-container": "#ff8371",
+                    "outline": "#8e706c",
+                    "surface-container-low": "#f3f4f5",
+                    "secondary-container": "#fcd400",
+                    "tertiary-fixed": "#d6e3ff",
+                    "primary-fixed-dim": "#ffb4a8",
+                    "on-error-container": "#93000a",
+                    "surface-tint": "#b22b1d",
+                    "on-primary-fixed-variant": "#8f0f07",
+                    "primary": "#570000",
+                    "surface-dim": "#d9dadb",
+                    "tertiary-container": "#223d64",
+                    "inverse-surface": "#2e3132",
+                    "tertiary-fixed-dim": "#aec7f6",
+                    "on-tertiary-fixed-variant": "#2d476f",
+                    "surface-container-highest": "#e1e3e4",
+                    "primary-container": "#800000",
+                    "on-error": "#ffffff",
+                    "surface": "#f8f9fa",
+                    "primary-fixed": "#ffdad4",
+                    "on-secondary-container": "#6e5c00",
+                    "error-container": "#ffdad6",
+                    "secondary-fixed": "#ffe16d",
+                    "secondary-fixed-dim": "#e9c400",
+                    "secondary": "#FFD700",
+                    "on-tertiary-container": "#8fa8d6",
+                    "background": "#f8f9fa",
+                    "on-background": "#191c1d",
+                    "on-surface": "#191c1d",
+                    "on-tertiary": "#ffffff",
+                    "surface-bright": "#f8f9fa",
+                    "error": "#ba1a1a",
+                    "surface-container": "#edeeef"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Newsreader"],
+                    "body": ["Work Sans"],
+                    "label": ["Work Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Work Sans', sans-serif; }
+        .font-newsreader { font-family: 'Newsreader', serif; }
+        .font-work-sans { font-family: 'Work Sans', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface">
+<!-- TopNavBar -->
+<header class="bg-[#570000]/80 backdrop-blur-md dark:bg-[#570000]/90 docked full-width top-0 sticky z-50 tonal-transition">
+<nav class="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="font-newsreader text-2xl font-bold text-white">MISBA</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Home%20Page_1/code.html">Home</a>
+<a class="font-newsreader tracking-tight text-[#FFD700] font-bold border-b-2 border-[#FFD700] pb-1" href="http://127.0.0.1:5500/About%20Us_2/code.html">About Us</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Executive%20Board_3/code.html">Executive Board</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Upcoming%20Events_4/code.html">Upcoming Events</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Project%20Showcase_5/code.html">Project Showcase</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-all duration-300" href="http://127.0.0.1:5500/Contact%20Us_6/code.html">Contact Us</a>
+</div>
+
+</nav>
+</header>
+<main class="min-h-screen">
+<!-- Hero Section -->
+<section class="relative min-h-[716px] flex items-center overflow-hidden bg-primary-container">
+<div class="absolute inset-0 opacity-40 mix-blend-overlay">
+<img alt="Modern business center" class="w-full h-full object-cover" data-alt="Modern university library with clean glass architecture and students working with laptops in a professional academic setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPjQG0C6go-DIojAdNjQ3yRJZd6Ndp4OA5p6dJIuKvKYfmNfmZp5TueFhKQrE99gnHw816YQRWbIVthV7pNwR6Fb_7f1GT3rU_4PnSvKCdahFjVTR9EI5wRTvW7KbLD9MaNOZ4VjxZ75OkTjXWpsozSC-I4XwUYJEgbas5lHWXO_11qCoc7VG10anUA5_qLNwBUh53WZir3IaQ2VgvwSHlw0MnkKMkkb57GgqzfRVk2pw3u3M5bUUTDEvu01uK7DOZ6A2tKP16Gut2"/>
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-primary to-transparent opacity-60"></div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-3xl">
+<span class="inline-block px-4 py-1 mb-6 bg-secondary-container text-on-secondary-container text-xs font-bold tracking-[0.2em] uppercase work-sans rounded-sm">University of Minnesota Duluth</span>
+<h1 class="text-7xl md:text-8xl newsreader font-extrabold text-white leading-tight -tracking-widest italic mb-8">
+                        About MISBA
+                    </h1>
+<p class="text-xl md:text-2xl work-sans font-light text-primary-fixed-dim leading-relaxed max-w-2xl">
+                        Empowering the next generation of data-driven business leaders at the intersection of technology and strategy.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Main Narrative Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-16 items-center">
+<div class="md:col-span-7">
+<span class="text-secondary font-bold work-sans uppercase tracking-widest text-sm mb-4 block">About Us</span>
+<h2 class="text-4xl md:text-5xl newsreader font-bold text-primary mb-8 leading-tight">
+                            Our Mission
+                        </h2>
+<div class="h-1 w-24 bg-secondary-container mb-8"></div>
+<p class="text-lg md:text-xl text-on-surface-variant work-sans leading-relaxed">
+                           Welcome to the UMD Bulldogs in Technology Club, where we're passionate about boosting knowledge and skills in IT and technology. Our club welcomes all, whether you're looking to boost your career, advance your academic journey, or simply want to dive deeper into the world of technology and AI.
+
+We regularly host guest speakers who provide valuable insights into the real-world use of technology and analytics. We offer events that assist in resume building and career development to help you succeed in your professional pursuits. Beyond that, we also organize club bonding events, creating a supportive community where lasting connections are forged.
+                        </p>
+</div>
+<div class="md:col-span-5 relative">
+<div class="aspect-[4/5] bg-surface-container-low p-4 ghost-border">
+<img alt="Group collaboration" class="w-full h-full object-cover" data-alt="Diverse group of university students in business casual attire collaborating around a large table with data charts and laptops" src="https://media.licdn.com/dms/image/v2/D5603AQG4oTzS9_kbFA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724727177436?e=2147483647&v=beta&t=OQpwtS1tlSYo2xR4RZ-bCkLwSlYEse4zzzUCLqqmdTs"/>
+</div>
+<div class="absolute -bottom-8 -left-8 bg-primary p-8 hidden md:block">
+<span class="newsreader text-4xl italic text-secondary-fixed-dim font-bold block">U M D</span>
+<span class="work-sans text-on-primary text-xs uppercase tracking-widest font-medium">Duluth Chapter</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Three Pillars: Bento Style -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-16">
+<h3 class="text-3xl newsreader font-bold text-primary italic">Our Core Pillars</h3>
+<p class="work-sans text-on-surface-variant uppercase tracking-widest text-xs font-bold mt-2">The foundation of our member experience</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-10 flex flex-col justify-between group hover:bg-primary transition-colors duration-500 ghost-border h-full">
+<div>
+<span class="material-symbols-outlined text-4xl text-secondary mb-8 group-hover:text-secondary-fixed">database</span>
+<h4 class="text-2xl newsreader font-bold text-primary mb-4 group-hover:text-white">Learn tools like Excel, SQL, and analytics platforms</h4>
+</div>
+<p class="work-sans text-on-surface-variant group-hover:text-primary-fixed text-sm">Master the essential stack for modern business analysts through guided sessions.</p>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-10 flex flex-col justify-between group hover:bg-primary transition-colors duration-500 ghost-border h-full">
+<div>
+<span class="material-symbols-outlined text-4xl text-secondary mb-8 group-hover:text-secondary-fixed">groups</span>
+<h4 class="text-2xl newsreader font-bold text-primary mb-4 group-hover:text-white">Network with alumni and employers</h4>
+</div>
+<p class="work-sans text-on-surface-variant group-hover:text-primary-fixed text-sm">Build lasting connections with Bulldogs who have successfully transitioned to the industry.</p>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-10 flex flex-col justify-between group hover:bg-primary transition-colors duration-500 ghost-border h-full">
+<div>
+<span class="material-symbols-outlined text-4xl text-secondary mb-8 group-hover:text-secondary-fixed">engineering</span>
+<h4 class="text-2xl newsreader font-bold text-primary mb-4 group-hover:text-white">Work on real-world projects</h4>
+</div>
+<p class="work-sans text-on-surface-variant group-hover:text-primary-fixed text-sm">Apply your learning to tangible business problems that look great on a resume.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Showcase: Citation Block Style -->
+<section class="py-24 bg-surface overflow-hidden">
+<div class="max-w-7xl mx-auto px-8">
+<div class="bg-primary-container relative p-12 md:p-24 overflow-hidden">
+<div class="absolute top-0 right-0 w-1/3 h-full opacity-20">
+<img alt="Data visualization" class="w-full h-full object-cover" data-alt="Close-up of a digital screen displaying complex data analytics dashboards with soft blue and white glowing lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJutPMD4fihiw5TaAVa-RrYPukccxWytbrpLi7a-sqDHSfYsRNG8zDQyFSNWviIvVuimlo3tjlWpJCglHfmPH6mYrL9Wxigpfl-GVMdAyOiBQ4Sa3OqO9gmh8oE7WJ87J0WaUVOoM5V5fQTvhTXGwCoSvYeAG8i3Y4VP-fKOa9NxK6sIMS6b43wEcICyqrlwZMkVlMfhEHJSw41l8ifV486ng1bshfef6CSNegiLDcKMZ8lv081M7jFOzg1cDAJK9Z-LCxb0gOhnR2"/>
+</div>
+<div class="relative z-10 max-w-2xl">
+<div class="flex items-center gap-4 mb-8">
+<div class="w-12 h-[2px] bg-secondary-container"></div>
+<span class="text-secondary-fixed work-sans uppercase tracking-[0.3em] text-xs font-bold">Industry Readiness</span>
+</div>
+<h2 class="text-3xl md:text-4xl newsreader italic font-light text-on-primary leading-snug mb-8">
+                            "Members gain hands-on experience through projects, workshops, and networking opportunities that prepare them for internships and careers in MIS and business analytics."
+                        </h2>
+<p class="work-sans text-primary-fixed text-sm tracking-wide">
+                            MISBA — PREPARING LEADERS FOR THE DATA AGE
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+</main>
+<!-- Footer -->
+<footer class="bg-[#570000] dark:bg-[#3d0000] full-width py-12">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 w-full max-w-screen-2xl mx-auto space-y-8 md:space-y-0">
+<div class="flex flex-col items-center md:items-start space-y-4">
+<div class="font-newsreader text-xl text-[#FFD700] newsreader">MISBA</div>
+<div class="font-work-sans text-sm uppercase tracking-widest text-white/80 text-center md:text-left work-sans">
+                    © 2024 MISBA. 1120 Kirby Drive, Duluth MN 55812. <br/> 
+                    Email: DuluthMISBA@gmail.com
+                </div>
+</div>
+<div class="flex space-x-12">
+<a class="font-work-sans text-sm uppercase tracking-widest text-white/60 hover:text-[#FFD700] transition-colors work-sans" href="https://www.linkedin.com/in/mis-ba-duluth/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="font-work-sans text-sm uppercase tracking-widest text-white/60 hover:text-[#FFD700] transition-colors work-sans" href="https://www.instagram.com/misbac_umd?igsh=MTRkMTVzYm5iMDFwYw%3D%3D" target="_blank" rel="noopener noreferrer">Instagram</a>
+</div>
+</div>
+</footer>
+</body></html>

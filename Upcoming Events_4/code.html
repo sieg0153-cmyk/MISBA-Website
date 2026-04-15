@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-on-surface": "#f0f1f2",
+                    "outline-variant": "#e2bfb9",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary-fixed": "#001b3d",
+                    "on-primary-fixed": "#410000",
+                    "on-secondary": "#ffffff",
+                    "surface-variant": "#e1e3e4",
+                    "on-secondary-fixed-variant": "#544600",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed": "#221b00",
+                    "surface-container-high": "#e7e8e9",
+                    "on-surface-variant": "#5a413d",
+                    "inverse-primary": "#ffb4a8",
+                    "tertiary": "#07274d",
+                    "on-primary-container": "#ff8371",
+                    "outline": "#8e706c",
+                    "surface-container-low": "#f3f4f5",
+                    "secondary-container": "#fcd400",
+                    "tertiary-fixed": "#d6e3ff",
+                    "primary-fixed-dim": "#ffb4a8",
+                    "on-error-container": "#93000a",
+                    "surface-tint": "#b22b1d",
+                    "on-primary-fixed-variant": "#8f0f07",
+                    "primary": "#570000",
+                    "surface-dim": "#d9dadb",
+                    "tertiary-container": "#223d64",
+                    "inverse-surface": "#2e3132",
+                    "tertiary-fixed-dim": "#aec7f6",
+                    "on-tertiary-fixed-variant": "#2d476f",
+                    "surface-container-highest": "#e1e3e4",
+                    "primary-container": "#800000",
+                    "on-error": "#ffffff",
+                    "surface": "#f8f9fa",
+                    "primary-fixed": "#ffdad4",
+                    "on-secondary-container": "#6e5c00",
+                    "error-container": "#ffdad6",
+                    "secondary-fixed": "#ffe16d",
+                    "secondary-fixed-dim": "#e9c400",
+                    "secondary": "#FFD700",
+                    "on-tertiary-container": "#8fa8d6",
+                    "background": "#f8f9fa",
+                    "on-background": "#191c1d",
+                    "on-surface": "#191c1d",
+                    "on-tertiary": "#ffffff",
+                    "surface-bright": "#f8f9fa",
+                    "error": "#ba1a1a",
+                    "surface-container": "#edeeef"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Newsreader"],
+                    "body": ["Work Sans"],
+                    "label": ["Work Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .newsreader-italic { font-family: 'Newsreader', serif; font-style: italic; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TopNavBar -->
+<nav class="bg-[#570000]/80 backdrop-blur-md dark:bg-[#570000]/90 docked full-width top-0 sticky z-50 tonal-transition">
+<div class="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="font-newsreader text-2xl font-bold text-white">MISBA</div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-colors" href="http://127.0.0.1:5500/Home%20Page_1/code.html">Home</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-colors" href="http://127.0.0.1:5500/About%20Us_2/code.html">About Us</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-colors" href="http://127.0.0.1:5500/Executive%20Board_3/code.html">Executive Board</a>
+<a class="font-newsreader tracking-tight text-[#FFD700] font-bold border-b-2 border-[#FFD700] pb-1" href="http://127.0.0.1:5500/Upcoming%20Events_4/code.html">Upcoming Events</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-colors" href="http://127.0.0.1:5500/Project%20Showcase_5/code.html">Project Showcase</a>
+<a class="font-newsreader tracking-tight text-white/90 hover:text-[#FFD700] transition-colors" href="http://127.0.0.1:5500/Contact%20Us_6/code.html">Contact Us</a>
+</div>
+</nav>
+</header>
+<main class="min-h-screen">
+<!-- Hero Section -->
+<section class="relative h-[614px] flex items-center overflow-hidden bg-primary-container">
+<div class="absolute inset-0 opacity-40">
+<img alt="" class="w-full h-full object-cover" data-alt="Modern university lecture hall with ambient lighting, students collaborating on laptops in a sophisticated academic environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgZ--0hffuiKdpsiGlW4e_ux8XN6d--ea-ef-aFun-qRzF7slsYFIy2OftRRHqs7hE8yFuTpiegEJ4CyLvsAKeZ9v1k74nTGiXbMRIRxzg79bCjGUKy4B_M_2cC6ez6a8JXlkZcup1FybHu-cKmB2jvKudRqrTZnlEAeq6AOtKG7ufm2ji1qHFrcPHq_W27TN_6IJ7P22AmTluRRryF7X1Ja8da-VU2dCD0l2nZLW034OBuq5AVWAQrgcSr7ftgBtdJD3qB-xVFaWW"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-primary/60 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">
+<div class="max-w-3xl">
+<span class="inline-block label-md text-secondary-fixed font-bold uppercase tracking-[0.2em] mb-4">MISBA's</span>
+<h1 class="font-headline text-6xl md:text-8xl text-white font-extrabold tracking-tighter leading-[0.9] mb-6">
+                        Upcoming Events
+                    </h1>
+</div>
+</div>
+</section>
+<!-- Main Event Section -->
+<section class="py-24 px-8 max-w-screen-2xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left Content: Event Card -->
+<div class="lg:col-span-8">
+<div class="bg-surface-container-lowest p-8 md:p-12 border-l-4 border-secondary shadow-sm relative overflow-hidden group">
+<!-- Abstract Background Detail -->
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary/5 -mr-16 -mt-16 rounded-full transition-transform group-hover:scale-150 duration-700"></div>
+<div class="flex flex-col md:flex-row justify-between items-start gap-8 relative z-10">
+<div class="flex-1">
+<h2 class="font-headline text-4xl md:text-5xl text-primary font-bold mb-6">MIS/BA’s AI Shark Tank Competition</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div class="flex items-start gap-4">
+<div class="bg-surface-container p-3 rounded-xl text-primary">
+<span class="material-symbols-outlined">calendar_today</span>
+</div>
+<div>
+<p class="font-label text-xs uppercase tracking-widest text-on-surface-variant font-bold">Date &amp; Time</p>
+<p class="text-lg font-semibold text-on-surface">Tue, Apr 14, 2026</p>
+<p class="text-sm text-on-surface-variant">4 PM – 6 PM CDT</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="bg-surface-container p-3 rounded-xl text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<p class="font-label text-xs uppercase tracking-widest text-on-surface-variant font-bold">Location</p>
+<p class="text-lg font-semibold text-on-surface">Griggs Center</p>
+<p class="text-sm text-on-surface-variant">1120 Kirby Drive, Duluth, MN 55812</p>
+</div>
+</div>
+</div>
+<div class="space-y-6">
+<p class="text-lg text-on-surface-variant leading-relaxed">
+                                        Join us for an exhilarating competition where teams engineer high-impact solutions. Build an AI-powered study application leveraging the power of <span class="font-bold text-primary italic">Antigravity, GitHub, and Vercel.</span>
+</p>
+<div class="p-6 bg-primary-fixed rounded-xl">
+<p class="font-headline text-xl text-on-primary-fixed italic mb-4">"Judged on functionality, creativity, design, and practical utility."</p>
+<div class="flex gap-4">
+<span class="px-3 py-1 bg-white/50 rounded-full text-[10px] font-bold uppercase tracking-wider text-primary">Functionality</span>
+<span class="px-3 py-1 bg-white/50 rounded-full text-[10px] font-bold uppercase tracking-wider text-primary">UX Design</span>
+<span class="px-3 py-1 bg-white/50 rounded-full text-[10px] font-bold uppercase tracking-wider text-primary">Innovation</span>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full md:w-64 bg-surface-container-low p-6 rounded-xl border border-outline-variant/20">
+<p class="font-label text-xs uppercase tracking-widest text-secondary font-bold mb-4">Milestones</p>
+<ul class="space-y-4">
+<li class="flex items-center gap-3">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<div class="text-sm">
+<p class="font-bold">Info Session I</p>
+<p class="text-on-surface-variant">March 26th</p>
+</div>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<div class="text-sm">
+<p class="font-bold">Info Session II</p>
+<p class="text-on-surface-variant">April 2nd</p>
+</div>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<div class="text-sm">
+<p class="font-bold">Final Pitch</p>
+<p class="text-on-surface-variant">April 14th</p>
+</div>
+</li>
+</ul>
+<button class="w-full mt-8 py-3 bg-secondary text-white font-bold rounded-lg hover:bg-secondary/90 transition-colors">Register Team</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Sidebar: The "Citation" Block -->
+<div class="lg:col-span-4 sticky top-28 space-y-8">
+<div class="bg-primary-container p-10 relative overflow-hidden">
+<span class="material-symbols-outlined text-secondary opacity-20 absolute -top-4 -left-4 text-9xl">format_quote</span>
+<div class="relative z-10">
+<h3 class="font-headline text-3xl text-white italic mb-4 leading-snug">"The future of business is being coded today by those who understand both the machine and the marketplace."</h3>
+<div class="w-12 h-1 bg-secondary mb-4"></div>
+<p class="font-label text-xs uppercase tracking-widest text-secondary-fixed font-bold">MISBA Leadership Board</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<!-- Tech Stack Section -->
+
+</main>
+<!-- Footer -->
+<footer class="bg-[#570000] dark:bg-[#3d0000] py-12 transition-colors duration-300">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 w-full max-w-screen-2xl mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="font-newsreader text-xl text-[#FFD700] font-bold mb-2">MISBA</div>
+<p class="font-work-sans text-xs uppercase tracking-widest text-white/60">© 2024 MISBA. 1120 Kirby Drive, Duluth MN 55812.</p>
+<p class="font-work-sans text-xs uppercase tracking-widest text-white/60">Email: DuluthMISBA@gmail.com</p>
+</div>
+<div class="flex gap-8">
+<a class="font-work-sans text-sm uppercase tracking-widest text-white/80 hover:text-[#FFD700] transition-colors" href="https://www.linkedin.com/in/mis-ba-duluth/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="font-work-sans text-sm uppercase tracking-widest text-white/80 hover:text-[#FFD700] transition-colors" href="https://www.instagram.com/misbac_umd?igsh=MTRkMTVzYm5iMDFwYw%3D%3D" target="_blank" rel="noopener noreferrer">Instagram</a>
+</div>
+</div>
+</footer>
+</body></html>
